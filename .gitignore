@@ -30,6 +30,9 @@ coverage/
 .npm
 .eslintcache
 
+# MCP server logs
+*.log
+
 # Dependency dirs
 jspm_packages/
 
