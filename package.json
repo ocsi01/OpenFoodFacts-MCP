@@ -5,8 +5,11 @@
   "main": "dist/index.js",
   "type": "module",
   "bin": {
-    "off-mcp-server": "dist/cli.js"
+    "off-mcp": "./dist/index.js"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
